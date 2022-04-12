@@ -5,12 +5,8 @@ ESLint configuration for all of TravPRO projects
 <!-- DO NOT EDIT: AUTO-GENERATED CONTENT -->
 
 # Table of Contents
-
-[1. Introduction](#1-introduction)  
-&nbsp;&nbsp;&nbsp;&nbsp; [1.1 Changes to the configuration](#11-changes-to-the-configuration)  
-&nbsp;&nbsp;&nbsp;&nbsp; [1.2 Steps](#12-steps)  
-[2. Prettier](#2-prettier)  
-[3. Rules](#3-rules)  
+  
+[1. Rules](#1-rules)  
 &nbsp;&nbsp;&nbsp;&nbsp; [import/extensions](#importextensions)  
 &nbsp;&nbsp;&nbsp;&nbsp; [import/no-cycle](#importno-cycle)  
 &nbsp;&nbsp;&nbsp;&nbsp; [import/no-extraneous-dependencies](#importno-extraneous-dependencies)  
@@ -26,31 +22,7 @@ ESLint configuration for all of TravPRO projects
 
 <!-- DO NOT EDIT: AUTO-GENERATED CONTENT -->
 
-# 1. Introduction
-
-This repository contains TravPRO's customised ESLint configuration. The goal of this repository is to ensure a consistent configuration across the board. This prevents any confusion as a result of different rules between different project.
-
-## 1.1 Changes to the configuration
-
-Because the configuration in this repository applies a to a large number of projects, any change you make here has to be well-considered.
-
-However, there are times where it makes sense to make exceptions to the rules. If you have found such a case you can follow the steps below to update or add exceptions.
-
-## 1.2 Steps
-
-1. Create a new branch, the name of the branch should be the same as the rule you want to change.
-
-2. Change the relevant configuration file found in [rules](https://github.com/TravPRO/eslint-config-travpro/tree/master/rules).
-
-3. Update the [README.md](https://github.com/TravPRO/eslint-config-travpro/tree/master/README.md) with the reasoning behind the rule change as well as an example use case.
-
-4. When you're satisfied you can open a pull request for the team's consideration
-
-# 2. Prettier
-
-This configuration extends configurations for Prettier and Prettier/React. These configurations leave Prettier to deal with some things ESLint would otherwise fix. Therefore you'll need to install the Prettier extension in your IDE. [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
-
-# 3. Rules
+# 1. Rules
 
 ## import/extensions
 
